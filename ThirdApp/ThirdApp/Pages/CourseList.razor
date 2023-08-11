@@ -7,7 +7,7 @@
 <div class="table-responsive">
     @if (Courses == null)
     {
-        <div class="spinner" ></div>
+        <div class="spinner"></div>
     }
     else
     {
@@ -18,15 +18,24 @@
                     <th>Name</th>
                     <th>Created On</th>
                     <th>Modified On</th>
-                    <th>Actions</th>
+
+                    @if (ShowActions)
+                    {
+                        <th>Actions</th>
+                    }
                 </tr>
             </thead>
             <tbody>
                 @foreach (var course in Courses)
                 {
-                    <DisplayCourse Course="course" ></DisplayCourse>
+                    <DisplayCourse Course="course" ShowActions="ShowActions" ></DisplayCourse>
                 }
             </tbody>
         </table>
+
+        <div class="position-fixed bottom-0 start-50">
+            <input type="checkbox" id="showActions" @bind="ShowActions" />
+            <label for="showActions">Show Actions</label>
+        </div>
     }
 </div>

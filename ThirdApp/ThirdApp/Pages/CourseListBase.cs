@@ -12,6 +12,9 @@ public class CourseListBase : ComponentBase
     [Inject]
     public ICourseService courseService { get; set; }
 
+    [Parameter]
+    public bool ShowActions { get; set; } = true;
+
     protected override async Task OnInitializedAsync()
     {
         Courses = (await courseService.GetList()).ToList();

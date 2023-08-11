@@ -7,4 +7,7 @@ public class DisplayCourseBase : ComponentBase
 {
     [Parameter]
     public Course Course { get; set; }
+
+    [Parameter]
+    public bool ShowActions { get; set; }
 }

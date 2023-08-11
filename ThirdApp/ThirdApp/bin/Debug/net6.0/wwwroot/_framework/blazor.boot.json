@@ -197,13 +197,15 @@
       "mscorlib.dll": "sha256-cx\/3nJhFns3tZhQNQOyiRyKJESKxOjLVufzWnri6KSA=",
       "netstandard.dll": "sha256-yWufW5W4SSfjocBcWTEDqnFwTd\/VYtLMc2Y9mPmlggc=",
       "System.Private.CoreLib.dll": "sha256-H009wzPwRoDZlwvpN4KLCsUwN7Y1AmjKB3PIEHA7ObQ=",
-      "ThirdApp.dll": "sha256-AJDjwt6b3LRRtLAjhnPl55nL6wZtrwvj9HP+PLigzKM="
+      "ThirdApp.Models.dll": "sha256-fTSF93vwnp\/0vntJLlfzgXoCQOe5SkPaDXk5L3Wxi5o=",
+      "ThirdApp.dll": "sha256-fT9Vvtt2lIWxKJUeTJ6kthhkkMiB+7VeOWnG3mYVkGc="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ThirdApp.pdb": "sha256-jLOhGFigGyIrfdsK3Il6wmPO0m0yYDwjY2PzYWEv4aM="
+      "ThirdApp.Models.pdb": "sha256-sa48Yb+Lz9HyEhPgo82mfQTAKaacWORGERMq+U2D9KU=",
+      "ThirdApp.pdb": "sha256-VkBmzKvkNfba9\/fhZgZps4r\/wq9FRpOBOZebdpT3aOY="
     },
     "runtime": {
       "dotnet.6.0.11.r7838ncm4i.js": "sha256-F30V+6jU3jwJYFZoLuwMAqzTiOXu6q7zGgOdjYBofDI=",

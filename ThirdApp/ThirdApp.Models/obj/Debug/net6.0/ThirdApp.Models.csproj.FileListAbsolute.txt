@@ -1,0 +1,12 @@
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\bin\Debug\net6.0\ThirdApp.Models.deps.json
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\bin\Debug\net6.0\ThirdApp.Models.dll
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\bin\Debug\net6.0\ThirdApp.Models.pdb
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\obj\Debug\net6.0\ThirdApp.Models.csproj.AssemblyReference.cache
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\obj\Debug\net6.0\ThirdApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\obj\Debug\net6.0\ThirdApp.Models.AssemblyInfoInputs.cache
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\obj\Debug\net6.0\ThirdApp.Models.AssemblyInfo.cs
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\obj\Debug\net6.0\ThirdApp.Models.csproj.CoreCompileInputs.cache
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\obj\Debug\net6.0\ThirdApp.Models.dll
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\obj\Debug\net6.0\refint\ThirdApp.Models.dll
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\obj\Debug\net6.0\ThirdApp.Models.pdb
+D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp.Models\obj\Debug\net6.0\ref\ThirdApp.Models.dll

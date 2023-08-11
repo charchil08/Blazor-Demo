@@ -517,6 +517,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "ThirdApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ThirdApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThirdApp.Models.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -1028,6 +1038,16 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "ThirdApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ThirdApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThirdApp.Models.dll": {}
         }
       }
     }
@@ -1810,13 +1830,19 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ThirdApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../ThirdApp.Models/ThirdApp.Models.csproj",
+      "msbuildProject": "../ThirdApp.Models/ThirdApp.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.10",
-      "Microsoft.Extensions.Http >= 6.0.0"
+      "Microsoft.Extensions.Http >= 6.0.0",
+      "ThirdApp.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1852,7 +1878,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppFullStack\\ThirdApp\\ThirdApp.Models\\ThirdApp.Models.csproj": {
+              "projectPath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppFullStack\\ThirdApp\\ThirdApp.Models\\ThirdApp.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,41 @@
+﻿@page "/course"
+@inherits CourseListBase
+
+<h3>CourseList</h3>
+
+
+<div class="table-responsive">
+    @if (Courses == null)
+    {
+        <div class="spinner" ></div>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Created On</th>
+                    <th>Modified On</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in Courses)
+                {
+                    <tr>
+                        <td>@course.Id</td>
+                        <td>@course.Name</td>
+                        <td>@course.CreatedOn</td>
+                        <td>@course.ModifiedOn</td>
+                        <td>
+                            <a class="btn btn-primary" href="#">Edit</a>
+                            <button class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

@@ -1,4 +1,6 @@
-﻿namespace ThirdApp.Models;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ThirdApp.Models;
 public class Course
 {
     public int Id { get; set; }

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ThirdApp.API.Entities;
 using ThirdApp.API.Entities.Context;
+using ThirdApp.API.Entities.DTOs;
 
 namespace ThirdApp.API.Controllers
 {
@@ -40,8 +41,15 @@ namespace ThirdApp.API.Controllers
 
         // POST: api/Courses
         [HttpPost]
-        public async Task<ActionResult<Course>> PostCourse(Course course)
+        public async Task<ActionResult<Course>> PostCourse(CourseDTO dto)
         {
+            Course course = new Course
+            {
+                CreatedOn= DateTime.UtcNow,
+                Name = dto.Name,
+                ModifiedOn = DateTime.UtcNow,
+
+            };
             _context.Courses.Add(course);
             await _context.SaveChangesAsync();
 
@@ -50,12 +58,19 @@ namespace ThirdApp.API.Controllers
 
         // PUT: api/Courses/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCourse(int id, Course course)
+        public async Task<IActionResult> PutCourse(int id, CourseDTO dto)
         {
-            if (id != course.Id)
+            if (id != dto.Id)
             {
                 return BadRequest();
             }
+
+            Course course = new Course
+            {
+                Name = dto.Name,
+                Id = id,
+                ModifiedOn = DateTime.UtcNow
+            };
 
             _context.Entry(course).State = EntityState.Modified;
 

@@ -1,0 +1,42 @@
+﻿@page "/course/edit/{Id}"
+@page "/course/create"
+@inherits EditCourseBase
+
+@if (CourseDTO == null)
+{
+    <div class="spinner"></div>
+}
+else
+{
+    <EditForm Model="@CourseDTO" OnValidSubmit="HandleValidSubmit">
+
+        <h3>Edit Course</h3>
+        <hr />
+
+        @if (!string.IsNullOrEmpty(CourseDTO.Id))
+        {
+        <div class="form-group row">
+            <label for="id" class="col-sm-2 col-form-label">
+                Id
+            </label>
+            <div class="col-sm-10">
+                <InputText id="id" class="form-control" placeholder="Id"
+                       @bind-Value="CourseDTO.Id" disabled />
+            </div>
+        </div>
+
+        }
+
+        <div class="form-group row">
+            <label for="name" class="col-sm-2 col-form-label">
+                Name
+            </label>
+            <div class="col-sm-10">
+                <InputText id="name" class="form-control" placeholder="Name"
+                       @bind-Value="CourseDTO.Name" />
+                <ValidationMessage For="@(() => CourseDTO.Name)" />
+            </div>
+        </div>
+        <button class="btn btn-outline-primary" type="submit">Edit</button>
+    </EditForm>
+}

@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Json;
 using ThirdApp.Models;
+using ThirdApp.Models.DTOs;
 using ThirdApp.Services.Infrastructure;
 
 namespace ThirdApp.Services.Architecture;
@@ -22,5 +23,16 @@ public class CourseService : ICourseService
     {
         return await httpClient.GetFromJsonAsync<Course>($"api/courses/{id}") ?? new Course();
     }
+
+    public async Task Edit(int id,CourseDTO dto)
+    {
+        await httpClient.PutAsJsonAsync<object>($"api/courses/{id}", dto);
+    }
+
+    public async Task<object> Add(CourseDTO dto)
+    {
+        return await httpClient.PostAsJsonAsync<CourseDTO>("/api/courses", dto);
+    }
+
 
 }

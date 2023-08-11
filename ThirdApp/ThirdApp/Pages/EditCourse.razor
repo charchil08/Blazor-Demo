@@ -46,7 +46,7 @@ else
         </div>
         <div class="d-flex justify-content-center my-2">
             <button class="btn btn-outline-primary mx-2" type="submit">
-                @(!string.IsNullOrEmpty(CourseDTO.Id)) ? "Edit" : "Add"
+                @(!string.IsNullOrEmpty(CourseDTO.Id) ? "Edit" : "Add")
                 </button>
             @if (!string.IsNullOrEmpty(CourseDTO.Id))
             {

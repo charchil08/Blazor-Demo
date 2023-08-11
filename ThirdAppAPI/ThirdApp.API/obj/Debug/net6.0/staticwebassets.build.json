@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6N67aMUWVyF7EWvjuDxNiArvW6UNBSZlwHYnXT1rb7c=",
+  "Source": "ThirdApp.API",
+  "BasePath": "_content/ThirdApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

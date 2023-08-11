@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/CHARCHIL/Blazor/WebAssembly/ThirdAppFullStack/ThirdApp/ThirdApp/Pages/CourseDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CHARCHIL/Blazor/WebAssembly/ThirdAppFullStack/ThirdApp/ThirdApp/Pages/CourseList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

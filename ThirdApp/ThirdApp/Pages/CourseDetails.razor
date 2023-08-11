@@ -1,0 +1,37 @@
+﻿@page "/course/view/{Id}"
+@inherits CourseDetailsBase
+
+<PageTitle>Course Detail</PageTitle>
+
+@if(Course == null)
+{
+    <div class="spinner" ></div>
+}
+else
+{
+    <div class="row justify-content-center m-3">
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-header">
+                    <h1>@Course.Name</h1>
+                </div>
+
+                <div class="card-body text-center">
+                    <h4>Course ID : @Course.Id</h4>
+                    <h4>Created On : @Course.CreatedOn</h4>
+                    <h4>Modified On : @Course.ModifiedOn</h4>
+                    <h4>Is Deleted : @Course.IsDeleted</h4>
+                </div>
+
+                <div class="card-footer text-center">
+                    <a href="/Course" class="btn btn-outline-warning">Back</a>
+                    <a asp-page="/Courses/Edit" asp-route-id="@Course.Id" class="btn btn-outline-primary">Edit</a>
+                    <a asp-page="/Courses/Delete" asp-route-id="@Course.Id" class="btn btn-outline-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+

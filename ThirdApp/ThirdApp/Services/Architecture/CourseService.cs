@@ -9,7 +9,7 @@ public class CourseService : ICourseService
     private readonly HttpClient httpClient;
 
     public CourseService(HttpClient httpClient)
-	{
+    {
         this.httpClient = httpClient;
     }
 
@@ -17,4 +17,10 @@ public class CourseService : ICourseService
     {
         return await httpClient.GetFromJsonAsync<Course[]>("api/courses");
     }
+
+    public async Task<Course> GetById(int id)
+    {
+        return await httpClient.GetFromJsonAsync<Course>($"api/courses/{id}") ?? new Course();
+    }
+
 }

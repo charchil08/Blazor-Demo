@@ -19,20 +19,20 @@ public class CourseListBase : ComponentBase
         //return base.OnInitializedAsync();
     }
 
-    private void LoadCourses()
-    {
-        Courses = new List<Course>
-        {
-            new Course { Id = 1, Name = "Mathematics", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
-            new Course { Id = 2, Name = "Science", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
-            new Course { Id = 3, Name = "History", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
-            new Course { Id = 4, Name = "English", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
-            new Course { Id = 5, Name = "Physics", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
-            new Course { Id = 6, Name = "Chemistry", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
-            new Course { Id = 7, Name = "Biology", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
-            new Course { Id = 8, Name = "Geography", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
-            new Course { Id = 9, Name = "Computer Science", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
-            new Course { Id = 10, Name = "Music", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
-        };
-    }
+    //private void LoadCourses()
+    //{
+    //    Courses = new List<Course>
+    //    {
+    //        new Course { Id = 1, Name = "Mathematics", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
+    //        new Course { Id = 2, Name = "Science", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
+    //        new Course { Id = 3, Name = "History", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
+    //        new Course { Id = 4, Name = "English", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
+    //        new Course { Id = 5, Name = "Physics", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
+    //        new Course { Id = 6, Name = "Chemistry", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
+    //        new Course { Id = 7, Name = "Biology", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
+    //        new Course { Id = 8, Name = "Geography", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
+    //        new Course { Id = 9, Name = "Computer Science", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
+    //        new Course { Id = 10, Name = "Music", CreatedOn = DateTimeOffset.UtcNow, ModifiedOn = DateTimeOffset.UtcNow, IsDeleted = false },
+    //    };
+    //}
 }

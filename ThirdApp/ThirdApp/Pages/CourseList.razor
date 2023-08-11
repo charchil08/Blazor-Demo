@@ -29,9 +29,10 @@
                         <td>@course.Name</td>
                         <td>@course.CreatedOn</td>
                         <td>@course.ModifiedOn</td>
-                        <td>
-                            <a class="btn btn-primary" href="#">Edit</a>
-                            <button class="btn btn-danger">Delete</button>
+                        <td class="d-flex justify-content-evenly" >
+                            <a class="btn btn-outline-warning" href="@($"course/view/{course.Id}")">View</a>
+                            <a class="btn btn-outline-primary" href="#">Edit</a>
+                            <button class="btn btn-outline-danger">Delete</button>
                         </td>
                     </tr>
                 }

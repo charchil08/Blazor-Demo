@@ -34,5 +34,9 @@ public class CourseService : ICourseService
         return await httpClient.PostAsJsonAsync<CourseDTO>("/api/courses", dto);
     }
 
+    public async Task Delete(int id)
+    {
+        await httpClient.DeleteAsync($"/api/courses/{id}");
+    }
 
 }

@@ -10,12 +10,19 @@ else
 {
     <EditForm Model="@CourseDTO" OnValidSubmit="HandleValidSubmit">
 
-        <h3>Edit Course</h3>
+        @if (!string.IsNullOrEmpty(CourseDTO.Id))
+        {
+            <h3>Edit Course</h3>
+        }
+        else
+        {
+            <h3>Add Course</h3>
+        }
         <hr />
 
         @if (!string.IsNullOrEmpty(CourseDTO.Id))
         {
-        <div class="form-group row">
+        <div class="form-group row my-2">
             <label for="id" class="col-sm-2 col-form-label">
                 Id
             </label>
@@ -27,7 +34,7 @@ else
 
         }
 
-        <div class="form-group row">
+        <div class="form-group row my-2">
             <label for="name" class="col-sm-2 col-form-label">
                 Name
             </label>
@@ -37,6 +44,14 @@ else
                 <ValidationMessage For="@(() => CourseDTO.Name)" />
             </div>
         </div>
-        <button class="btn btn-outline-primary" type="submit">Edit</button>
+        <div class="d-flex justify-content-center my-2">
+            <button class="btn btn-outline-primary mx-2" type="submit">
+                @(!string.IsNullOrEmpty(CourseDTO.Id)) ? "Edit" : "Add"
+                </button>
+            @if (!string.IsNullOrEmpty(CourseDTO.Id))
+            {
+                <button class="btn btn-outline-danger" type="submit" @onclick="Delete_Click" >Delete</button>
+            }
+        </div>
     </EditForm>
 }

@@ -29,6 +29,11 @@ public class CourseListBase : ComponentBase
         SelectedCourseCount = isSelected ? SelectedCourseCount + 1 : SelectedCourseCount - 1;
     }
 
+    protected async Task CourseDeletion()
+    {
+        Courses = (await courseService.GetList()).ToList();
+    }
+
     //private void LoadCourses()
     //{
     //    Courses = new List<Course>

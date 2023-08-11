@@ -34,7 +34,7 @@
             <tbody>
                 @foreach (var course in Courses)
                 {
-                    <DisplayCourse Course="course" ShowActions="ShowActions" OnCourseSelection="CourseSelectionChanged"></DisplayCourse>
+                    <DisplayCourse Course="course" ShowActions="ShowActions" OnCourseSelection="CourseSelectionChanged" OnCourseDeletion="CourseDeletion" ></DisplayCourse>
                 }
             </tbody>
         </table>

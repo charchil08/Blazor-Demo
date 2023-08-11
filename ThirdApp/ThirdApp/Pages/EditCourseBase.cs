@@ -56,4 +56,10 @@ public class EditCourseBase : ComponentBase
 
         NavigationManager.NavigateTo("/course");
     }
+
+    protected async Task Delete_Click()
+    {
+        await courseService.Delete(int.Parse(Id));
+        NavigationManager.NavigateTo("/course");
+    }
 }

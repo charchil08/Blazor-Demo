@@ -12,4 +12,6 @@ public interface ICourseService
     Task Edit(int id, CourseDTO dto);
 
     Task<object> Add(CourseDTO dto);
+
+    Task Delete(int id);
 }

@@ -15,11 +15,18 @@ public class CourseListBase : ComponentBase
     [Parameter]
     public bool ShowActions { get; set; } = true;
 
+    protected int SelectedCourseCount { get; set; } = 0;
+
     protected override async Task OnInitializedAsync()
     {
         Courses = (await courseService.GetList()).ToList();
         //LoadCourses();
         //return base.OnInitializedAsync();
+    }
+
+    protected void CourseSelectionChanged(bool isSelected)
+    {
+        SelectedCourseCount = isSelected ? SelectedCourseCount + 1 : SelectedCourseCount - 1;
     }
 
     //private void LoadCourses()

@@ -3,6 +3,7 @@
 
 <h3>CourseList</h3>
 
+<div class="my-2 @(SelectedCourseCount <= 0 ? "invisible" : "")">Selected course : @SelectedCourseCount</div>
 
 <div class="table-responsive">
     @if (Courses == null)
@@ -28,7 +29,7 @@
             <tbody>
                 @foreach (var course in Courses)
                 {
-                    <DisplayCourse Course="course" ShowActions="ShowActions" ></DisplayCourse>
+                    <DisplayCourse Course="course" ShowActions="ShowActions" OnCourseSelection="CourseSelectionChanged"></DisplayCourse>
                 }
             </tbody>
         </table>

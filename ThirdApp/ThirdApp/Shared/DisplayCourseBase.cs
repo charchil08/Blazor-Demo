@@ -10,4 +10,15 @@ public class DisplayCourseBase : ComponentBase
 
     [Parameter]
     public bool ShowActions { get; set; }
+
+    protected bool IsSelected { get; set; }
+
+    [Parameter]
+    public EventCallback<bool> OnCourseSelection { get; set; }
+
+    protected async Task CheckboxChecked(ChangeEventArgs e)
+    {
+        IsSelected = (bool)e.Value!;
+        await OnCourseSelection.InvokeAsync(IsSelected);
+    }
 }

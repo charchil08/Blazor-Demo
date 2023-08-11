@@ -1,7 +1,14 @@
 ﻿@inherits DisplayCourseBase
 
 <tr>
-    <td>@Course.Id</td>
+    <td class="d-flex justify-content-around" >
+        <div>
+            <input type="checkbox" checked="@IsSelected" onchange="@CheckboxChecked" />
+        </div>
+        <div>
+            @Course.Id
+        </div>
+    </td>
     <td>@Course.Name</td>
     <td>@Course.CreatedOn</td>
     <td>@Course.ModifiedOn</td>

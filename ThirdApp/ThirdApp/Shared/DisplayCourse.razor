@@ -1,0 +1,13 @@
+﻿@inherits DisplayCourseBase
+
+<tr>
+    <td>@Course.Id</td>
+    <td>@Course.Name</td>
+    <td>@Course.CreatedOn</td>
+    <td>@Course.ModifiedOn</td>
+    <td class="d-flex justify-content-evenly">
+        <a class="btn btn-outline-warning" href="@($"course/view/{Course.Id}")">View</a>
+        <a class="btn btn-outline-primary" href="#">Edit</a>
+        <button class="btn btn-outline-danger">Delete</button>
+    </td>
+</tr>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a7+uZ+k1Wd0dTVcPwpK4LhbDHbDjONpmgO6O+uaYKtxmBJkvJSmb9pFeE5o0En8eaicNk+5uzApTPRFL8E0m7Q==",
+  "dgSpecHash": "rmJ8VMpYOK4xVkhWsm10HgYvpQObIXlv+UeiDBsMX4+709JcbzEGAbn+H4lLyvjOepVVPG0kryGgGkiWvn2Rvg==",
   "success": true,
-  "projectFilePath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppAPI\\ThirdApp\\ThirdApp.API\\ThirdApp.API.csproj",
+  "projectFilePath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppFullStack\\ThirdAppAPI\\ThirdApp.API\\ThirdApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pci141\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

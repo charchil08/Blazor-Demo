@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = ThirdApp
 build_property.RootNamespace = ThirdApp
-build_property.ProjectDir = D:\CHARCHIL\Blazor\WebAssembly\ThirdApp\ThirdApp\ThirdApp\
+build_property.ProjectDir = D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\CHARCHIL\Blazor\WebAssembly\ThirdApp\ThirdApp\ThirdApp
+build_property.MSBuildProjectDirectory = D:\CHARCHIL\Blazor\WebAssembly\ThirdAppFullStack\ThirdApp\ThirdApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/CHARCHIL/Blazor/WebAssembly/ThirdApp/ThirdApp/ThirdApp/App.razor]
+[D:/CHARCHIL/Blazor/WebAssembly/ThirdAppFullStack/ThirdApp/ThirdApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CHARCHIL/Blazor/WebAssembly/ThirdApp/ThirdApp/ThirdApp/Pages/Counter.razor]
+[D:/CHARCHIL/Blazor/WebAssembly/ThirdAppFullStack/ThirdApp/ThirdApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CHARCHIL/Blazor/WebAssembly/ThirdApp/ThirdApp/ThirdApp/Pages/FetchData.razor]
+[D:/CHARCHIL/Blazor/WebAssembly/ThirdAppFullStack/ThirdApp/ThirdApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CHARCHIL/Blazor/WebAssembly/ThirdApp/ThirdApp/ThirdApp/Pages/FetchWeather.razor]
+[D:/CHARCHIL/Blazor/WebAssembly/ThirdAppFullStack/ThirdApp/ThirdApp/Pages/FetchWeather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CHARCHIL/Blazor/WebAssembly/ThirdApp/ThirdApp/ThirdApp/Pages/Index.razor]
+[D:/CHARCHIL/Blazor/WebAssembly/ThirdAppFullStack/ThirdApp/ThirdApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CHARCHIL/Blazor/WebAssembly/ThirdApp/ThirdApp/ThirdApp/Shared/SurveyPrompt.razor]
+[D:/CHARCHIL/Blazor/WebAssembly/ThirdAppFullStack/ThirdApp/ThirdApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CHARCHIL/Blazor/WebAssembly/ThirdApp/ThirdApp/ThirdApp/_Imports.razor]
+[D:/CHARCHIL/Blazor/WebAssembly/ThirdAppFullStack/ThirdApp/ThirdApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CHARCHIL/Blazor/WebAssembly/ThirdApp/ThirdApp/ThirdApp/Shared/MainLayout.razor]
+[D:/CHARCHIL/Blazor/WebAssembly/ThirdAppFullStack/ThirdApp/ThirdApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-nf97umnf93
 
-[D:/CHARCHIL/Blazor/WebAssembly/ThirdApp/ThirdApp/ThirdApp/Shared/NavMenu.razor]
+[D:/CHARCHIL/Blazor/WebAssembly/ThirdAppFullStack/ThirdApp/ThirdApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-yqourex7nn

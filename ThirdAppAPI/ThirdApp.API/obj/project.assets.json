@@ -2234,11 +2234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppAPI\\ThirdApp\\ThirdApp.API\\ThirdApp.API.csproj",
+      "projectUniqueName": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppFullStack\\ThirdAppAPI\\ThirdApp.API\\ThirdApp.API.csproj",
       "projectName": "ThirdApp.API",
-      "projectPath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppAPI\\ThirdApp\\ThirdApp.API\\ThirdApp.API.csproj",
+      "projectPath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppFullStack\\ThirdAppAPI\\ThirdApp.API\\ThirdApp.API.csproj",
       "packagesPath": "C:\\Users\\pci141\\.nuget\\packages\\",
-      "outputPath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppAPI\\ThirdApp\\ThirdApp.API\\obj\\",
+      "outputPath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppFullStack\\ThirdAppAPI\\ThirdApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

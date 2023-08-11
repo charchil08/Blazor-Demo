@@ -1827,11 +1827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdApp\\ThirdApp\\ThirdApp\\ThirdApp.csproj",
+      "projectUniqueName": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppFullStack\\ThirdApp\\ThirdApp\\ThirdApp.csproj",
       "projectName": "ThirdApp",
-      "projectPath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdApp\\ThirdApp\\ThirdApp\\ThirdApp.csproj",
+      "projectPath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppFullStack\\ThirdApp\\ThirdApp\\ThirdApp.csproj",
       "packagesPath": "C:\\Users\\pci141\\.nuget\\packages\\",
-      "outputPath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdApp\\ThirdApp\\ThirdApp\\obj\\",
+      "outputPath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppFullStack\\ThirdApp\\ThirdApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

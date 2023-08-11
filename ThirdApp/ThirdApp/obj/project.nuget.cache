@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Po8vgGE/+QkgWQhCEJFCJLV0KdlLVmchi22oOUn9EBavqT6PLD4WMVkSq638VwKRZ6vntRlgKsMnEs1yZzhFBw==",
+  "dgSpecHash": "JndBftdSACiVQoZgN0LSviP3nWvKk5yltkP8+A1ayNEAJmFCyS/5apJs7bJUj+rr/ipVnTt//AYXSs5TMYyVcg==",
   "success": true,
-  "projectFilePath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdApp\\ThirdApp\\ThirdApp\\ThirdApp.csproj",
+  "projectFilePath": "D:\\CHARCHIL\\Blazor\\WebAssembly\\ThirdAppFullStack\\ThirdApp\\ThirdApp\\ThirdApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pci141\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\pci141\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
